@@ -1,0 +1,4 @@
+interface:
+  display_name: "デザインルール資料作成"
+  short_description: "余白・整列・少数色のルールに沿って日本語資料を構成し、HTMLまで生成・検証する"
+  default_prompt: "$design-rules-docs を使って、提供した情報から読みやすい資料を作成してください。"
