@@ -1,0 +1,196 @@
+{
+  "version": "2.0.0",
+  "source_images": 86,
+  "missing_image_numbers": [
+    3882,
+    3895,
+    3896
+  ],
+  "scope": "uploaded_pages_only",
+  "implementation_values_not_book_quotes": true,
+  "rules": [
+    {
+      "id": "meaning",
+      "source_pages": [
+        94,
+        110,
+        164,
+        165,
+        166,
+        167,
+        181,
+        202
+      ],
+      "status": "manual_and_validation",
+      "implementation": "関係・主題・読み順。causalは出典必須。意味は人が確認。"
+    },
+    {
+      "id": "simple_shapes",
+      "source_pages": [
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        104,
+        174,
+        175,
+        206,
+        215
+      ],
+      "status": "enforced",
+      "implementation": "固定テンプレート。影・自由な形・装飾禁止。"
+    },
+    {
+      "id": "arrows",
+      "source_pages": [
+        102,
+        103,
+        111,
+        166,
+        167
+      ],
+      "status": "enforced",
+      "implementation": "控えめな矢印・循環・順序と因果の区別。"
+    },
+    {
+      "id": "spacing",
+      "source_pages": [
+        106,
+        107,
+        138,
+        144,
+        145,
+        146,
+        147,
+        148,
+        149,
+        152,
+        153,
+        154,
+        155
+      ],
+      "status": "enforced_and_browser",
+      "implementation": "共有グリッド、余白、近接。表示時に領域検査。"
+    },
+    {
+      "id": "hierarchy",
+      "source_pages": [
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        203,
+        204,
+        205
+      ],
+      "status": "enforced",
+      "implementation": "見出し・本文・注記の書式、表紙、グループ、反復。"
+    },
+    {
+      "id": "images",
+      "source_pages": [
+        114,
+        120,
+        121,
+        152,
+        156,
+        157,
+        168,
+        173,
+        176,
+        177,
+        209
+      ],
+      "status": "partial",
+      "implementation": "比率保持、代替文、番号注釈、キャプション。自由な引き出し線・背景削除は対象外。"
+    },
+    {
+      "id": "chart_choice",
+      "source_pages": [
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        198,
+        208
+      ],
+      "status": "enforced_and_manual",
+      "implementation": "5形式、直接ラベル、誤差、単位、元データ表。分析目的の判断は人。"
+    },
+    {
+      "id": "table",
+      "source_pages": [
+        136,
+        137,
+        138,
+        207,
+        214
+      ],
+      "status": "enforced",
+      "implementation": "右・左揃え、余白、罫線削減、交互行色。"
+    },
+    {
+      "id": "noise",
+      "source_pages": [
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        202,
+        206,
+        207,
+        215
+      ],
+      "status": "enforced",
+      "implementation": "静止表示、不要装飾と無意味なカード化を排除。"
+    },
+    {
+      "id": "reading",
+      "source_pages": [
+        178,
+        179,
+        180,
+        181,
+        214
+      ],
+      "status": "enforced_and_manual",
+      "implementation": "読む表示は一段組、比較は用途別。投影環境は実物確認。"
+    },
+    {
+      "id": "color",
+      "source_pages": [
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        192,
+        193,
+        198,
+        199
+      ],
+      "status": "enforced_and_manual",
+      "implementation": "4プリセット、文字明暗差、非色依存のラベル。画像色抽出と色覚シミュレーションは手動。"
+    }
+  ]
+}
